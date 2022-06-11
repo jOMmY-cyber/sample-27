@@ -1,0 +1,13 @@
+<web-app>
+    <servlet>
+        <servlet-name>vessuvan</servlet-name>
+        <servlet-class>
+            web.Sample
+        </servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>vessuvan</servlet-name>
+        <url-pattern>/search</url-pattern>
+        <url-pattern>/display</url-pattern>
+    </servlet-mapping>
+</web-app>
